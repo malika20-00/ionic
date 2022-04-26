@@ -1,0 +1,124 @@
+.titre
+{
+text-align: center;
+font-size: 25px;
+font-weight: 600;
+font-family: Elephant;
+margin: 0;
+
+}
+.sous-titre
+{
+  text-align: center;
+  font-size: 18px;
+  font-family: Tempus Sans ITC;
+  font-weight: 600;
+}
+.sous-titre2{
+  // text-align: right;
+  // margin-right: 20px;
+  // font-size: 18px;
+  // font-family: Bahnschrift SemiBold Condensed;
+  // font-weight: 600;
+  text-align: right;
+  margin-right: 18px;
+  font-size: 16px;
+  font-family: Bahnschrift SemiBold Condensed;
+//  font-weight: 700;
+  font-family: Bahnschrift SemiBold Condensed;
+  font-family: Impact;
+}
+.zone{
+  //box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  //box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+//  padding: auto;
+ padding-left: 5px;
+//   width: 95%;
+//   display: flex;
+//   justify-items: center;
+// justify-content: start;
+// margin-left: 20px;
+// height: 35px;
+// margin: 5px;
+// background-color: white;
+// background-color: rgb(87, 87, 81);
+width: 90%;
+margin:10px auto;
+display: flex;
+justify-content: start;
+height: 40px;
+//background-color: aquamarine;
+font-size: 15px;
+background-color:#aaa;
+background-color:rgba(214, 209, 212, 0.82);
+border-radius: 20px;
+padding-left: 15px;
+background-color: #7EA1C4;
+background-color: #d4e1ed;
+background-color: #eee;
+//box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+//box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.zone input{
+   border: none;
+margin-left: 5px;
+ width: 100%;
+ background-color:rgba(214, 209, 212, 0.82);
+ //border-radius: 10px;
+ border-top-right-radius: 20px;
+ border-bottom-right-radius: 20px;
+// margin-left: 10px;
+// background-color: rgb(87, 87, 81);
+//background-color: aquamarine;
+background-color: #d4e1ed;
+//background-color: #e7f0f9;
+background-color: #eee;
+}
+
+input:focus{ outline: none; }
+.zone i{
+  font-size: 20px;
+  margin:auto;
+  color:rgb(101, 97, 97);
+
+  //background-color:rgba(214, 209, 212, 0.82);
+}
+.zone input::placeholder {
+  color:rgb(101, 97, 97);
+  font-weight: 600;
+}
+.btn
+{
+  width: 90%;
+  margin:10px auto;
+
+height: 40px;
+//background-color: aquamarine;
+font-size: 16px;
+color:rgb(11, 11, 11);
+background-color:#FF8563;
+//border-radius: 20px;
+padding: auto;
+display: flex;
+//justify-content: center;
+}
+.btn-center{
+font-size: 17px;
+  margin: auto;
+  font-weight: 600;
+
+}
+.monContenu2{
+ // background-color: aquamarine;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+ flex-direction: column;
+}
+img{
+  width: 70%;
+  margin: 10px auto;
+  margin-top: 20px;
+}

@@ -1,0 +1,104 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>sign in</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <form [formGroup]="infoGeneral" (ngSubmit)="register()">
+
+<ion-item fill="solid" class="ion-margin-bottom">
+  <ion-input type="text" placeholder="prenom" formControlName="prenom"></ion-input>
+ </ion-item>
+
+ <ion-item fill="solid" class="ion-margin-bottom">
+  <ion-input type="text" placeholder="nom" formControlName="nom"></ion-input>
+ </ion-item>
+ <ion-item fill="solid" class="ion-margin-bottom">
+  <ion-input type="email" placeholder="Email" formControlName="email"></ion-input>
+  <ion-note slot="error" *ngIf="(email.dirty || email.touched) && email.errors">Email n'est pas valide</ion-note>
+</ion-item>
+<ion-item fill="solid" class="ion-margin-bottom">
+  <ion-input type="password" placeholder="Mot de passe" formControlName="password" formControlName="password"></ion-input>
+  <ion-note slot="error" *ngIf="(password.dirty || password.touched) && password.errors">Le mot de passe doit contenir au minimum 6 caractères</ion-note>
+</ion-item>
+<ion-button expand="full" type="submit" [disabled]="!infoGeneral.valid">Se connecter</ion-button>
+
+
+  </form>
+
+</ion-content> -->
+
+
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>register</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header> -->
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script src="https://kit.fontawesome.com/84ea18e375.js" crossorigin="anonymous"></script>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<ion-content class="ion-pading">
+    <link href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" rel="stylesheet"/>
+
+    <div class="monContenu2">
+      <p class="titre">Authentification</p>
+      <img src="../../../assets/2.svg" alt="logo">
+
+
+  <p class="sous-titre">creer votre compte des maintenant</p>
+
+
+
+  <div class="form">
+    <div class="zone" >
+
+      <i class="fas fa-user " ></i>
+      <input type="text" name="prenom" placeholder="Preom" >
+  </div>
+  <div class="zone">
+
+    <i class="fas fa-user " ></i>
+    <input type="text" name="nom" placeholder="Nom" >
+</div>
+<div class="zone">
+  <i class="material-icons" style="font-size: 21px;">email</i>
+  <input type="email" name="nom" placeholder="Email" >
+</div>
+<div class="zone">
+  <i style="font-size: 18px;" class="fas fa-lock i"></i>
+  <input type="password" name="password" placeholder="Mot de passe" >
+</div>
+    <!-- <ion-item>
+      <ion-label position="stacked">prenom</ion-label>
+      <ion-input [(ngModel)]='prenom' placeholder="prenom"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="stacked">nom</ion-label>
+      <ion-input [(ngModel)]='nom'></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="stacked">Email</ion-label>
+      <ion-input [(ngModel)]='email'></ion-input>
+    </ion-item>
+    <br>
+    <ion-item>
+      <ion-label position="stacked">mot de passe</ion-label>
+      <ion-input [(ngModel)]='password'></ion-input>
+    </ion-item> -->
+    <div (click)='register()'  class="btn">
+  <p class="btn-center"> S'INSCRIRE</p>
+     </div>
+     <p class="sous-titre2">j'ai deja un compte</p>
+  </div>
+<!-- <img src="../../../assets/2.svg" alt="logo"> -->
+
+</div>
+</ion-content>
+
+
